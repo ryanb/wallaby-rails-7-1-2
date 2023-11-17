@@ -1,0 +1,9 @@
+<% if decorated.test_url.present? %>
+  <%= link_to '', decorated.test_url,
+              class: 'resource__support_system',
+              target: '_blank' %>
+<% end %>
+
+<%= show_link(decorated) {} %>
+<%= edit_link(decorated) {} %>
+<%= delete_link(decorated) {} %>
