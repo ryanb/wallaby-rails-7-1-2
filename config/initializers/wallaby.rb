@@ -7,7 +7,7 @@ Wallaby.config do |config|
 
   # To refine what model classes Wallaby should take care:
   # config.models = [Product, Order]
-  config.models.exclude []
+  # config.models.exclude []
 
   # for authentication
   # To configure how `current_user` should be returned
